@@ -26,7 +26,7 @@ int get_max(int *array, int size)
 
 /**
  * radix_counting_sort - Sort the significant digits of an array of integers
- *                       in ascending order using the counting sort algorithm.
+ * in ascending order using the counting sort algorithm.
  * @array: An array of integers.
  * @size: The size of the array.
  * @sig: The significant digit to sort on.
@@ -55,7 +55,7 @@ void radix_counting_sort(int *array, size_t size, int sig, int *buff)
 
 /**
  * radix_sort - Sort an array of integers in ascending
- *              order using the radix sort algorithm.
+ * order using the radix sort algorithm.
  * @array: An array of integers.
  * @size: The size of the array.
  *
